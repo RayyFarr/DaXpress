@@ -1,0 +1,41 @@
+html {
+  font-size: 14px;
+}
+body {
+    font-family:Bahnschrift;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.card{
+    border:none;
+    margin:1rem;
+}
+.card-img{
+    width:90%;
+    margin:0 auto;
+    height:15rem;
+    overflow:hidden;
+
+}
+.card-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
