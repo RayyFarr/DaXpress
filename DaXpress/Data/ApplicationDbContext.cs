@@ -11,5 +11,6 @@ namespace DaXpress.Data
 		{
 		}
 		public DbSet<DaXpress.Models.Product>? Product { get; set; }
+		public DbSet<DaXpress.Models.Cart>? Cart { get; set; }
 	}
 }

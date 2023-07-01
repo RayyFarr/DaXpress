@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
 using DaXpress.Data;
 using DaXpress.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace DaXpress.Views
 {

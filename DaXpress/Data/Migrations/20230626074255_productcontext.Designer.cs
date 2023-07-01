@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DaXpress.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230625111845_finalsetup")]
-    partial class finalsetup
+    [Migration("20230626074255_productcontext")]
+    partial class productcontext
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

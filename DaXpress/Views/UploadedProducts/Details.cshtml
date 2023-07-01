@@ -22,12 +22,12 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Description)
         </dd>
-        <dt class="col-sm-2">
+        <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.ImageURL)
         </dt>
-        <dd class="col-sm-10">
+        <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.ImageURL)
-        </dd>           
+        </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Price)
         </dt>
@@ -47,9 +47,8 @@
             @Html.DisplayFor(model => model.CreatedDate)
         </dd>
     </dl>
-    <img class="img-fluid" src="@Model.ImageURL"/>
 </div>
 <div>
-    <a class="btn btn-success" asp-action="Add to cart" asp-route-id="@Model?.Id">Add This to cart</a> 
+    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> 
     <a class="btn btn-close" asp-action="Index"></a>
 </div>

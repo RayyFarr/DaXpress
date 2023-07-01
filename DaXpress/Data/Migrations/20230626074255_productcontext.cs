@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace DaXpress.Data.Migrations
 {
-    public partial class finalsetup : Migration
+    public partial class productcontext : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
